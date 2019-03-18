@@ -102,7 +102,7 @@ class Scraper(object):
 
   if protocol:
    if all([protocol.lower() != 'ssl', protocol.lower() != 'socks4', protocol.lower() != 'socks5']):
-    print 'Only Supporting SSL & Socks protocol'
+    print('Only Supporting SSL & Socks protocol')
     return 
 
   if self.isAlive:self.fetch(self.new_proxies)
