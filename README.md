@@ -11,7 +11,7 @@ proxies = scraper.scrape(size=10)
 
 while proxies.qsize:
 proxy = proxies.get()
-print proxy
+print(proxy)
 ```
 
 Get proxies from Japan
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     
  while proxies.qsize:
   proxy = proxies.get()
-  print proxy
+  print(proxy)
 ```
 
 Get three proxies from Japan
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
  while proxies.qsize:
   proxy = proxies.get()
-  print proxy
+  print(proxy)
 ```
 
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     
  while proxies.qsize:
   proxy = proxies.get()
-  print proxy
+  print(proxy)
 ```
 
 Get SOCKS5 proxies
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     
  while proxies.qsize:
   proxy = proxies.get()
-  print proxy
+  print(proxy)
 ```
 
 Get proxies on port 8080
@@ -82,5 +82,5 @@ if __name__ == '__main__':
     
  while proxies.qsize:
   proxy = proxies.get()
-  print proxy
+  print(proxy)
 ```
